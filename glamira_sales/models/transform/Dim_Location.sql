@@ -1,0 +1,1 @@
+SELECT {{ dbt_utils.generate_surrogate_key(['ip'])}} AS location_id, * FROM raw_event.location
